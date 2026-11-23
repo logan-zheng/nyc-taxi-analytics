@@ -1,0 +1,8 @@
+dbt-adapters==1.17.3
+dbt-common==1.34.2
+dbt-core==1.10.19
+dbt-databricks==1.10.19
+dbt-extractor==0.6.0
+dbt-protos==1.0.615
+dbt-semantic-interfaces==0.9.0
+dbt-spark==1.9.3
