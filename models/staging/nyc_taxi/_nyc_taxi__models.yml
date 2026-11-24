@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_nyc_taxi__zones
+    description: One row per NYC taxi zone, cleaned from the TLC lookup CSV.
+    columns:
+      - name: location_id
+        description: TLC zone ID, joins to PULocationID / DOLocationID on trips.
+        data_tests:
+          - unique
+          - not_null
